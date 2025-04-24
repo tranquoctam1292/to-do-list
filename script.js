@@ -1,7 +1,7 @@
 // script.js
 
 // 🎯 Thời điểm đến Tết Nguyên Đán 2025: 29/01/2025
-const targetDate = new Date("2025-01-29T00:00:00");
+const targetDate = new Date("2025-04-27T00:00:00");
 
 function updateCountdown() {
   const now = new Date();
