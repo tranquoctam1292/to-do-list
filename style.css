@@ -2,19 +2,29 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    padding-top: 5rem;
+    padding-top: 4rem;
     background: #fef9f5;
   }
   
   h1 {
     color: #e74c3c;
+    margin-bottom: 2rem;
+  }
+  
+  #picker {
+    margin-bottom: 2rem;
+  }
+  
+  input[type="date"], button {
+    padding: 8px 12px;
+    font-size: 16px;
+    margin: 0 6px;
   }
   
   #countdown {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-top: 2rem;
   }
   
   #countdown div {
@@ -29,10 +39,5 @@ body {
     font-size: 2rem;
     display: block;
     color: #333;
-  }
-  
-  #countdown small {
-    font-size: 0.9rem;
-    color: #777;
   }
   
