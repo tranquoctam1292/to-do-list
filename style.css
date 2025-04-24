@@ -1,42 +1,38 @@
 /* style.css */
 body {
-    font-family: Arial;
+    font-family: Arial, sans-serif;
     text-align: center;
-    background: #fefefe;
-    padding: 2rem;
+    padding-top: 5rem;
+    background: #fef9f5;
   }
   
-  .todo-container {
-    display: inline-block;
-    width: 300px;
-    text-align: left;
+  h1 {
+    color: #e74c3c;
   }
   
-  input {
-    width: 70%;
-    padding: 8px;
-  }
-  
-  button {
-    padding: 8px;
-  }
-  
-  ul {
-    list-style: none;
-    padding-left: 0;
-  }
-  
-  li {
-    background: #eee;
-    margin: 8px 0;
-    padding: 8px;
+  #countdown {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 2rem;
   }
   
-  li.done {
-    text-decoration: line-through;
-    color: gray;
+  #countdown div {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 80px;
+  }
+  
+  #countdown span {
+    font-size: 2rem;
+    display: block;
+    color: #333;
+  }
+  
+  #countdown small {
+    font-size: 0.9rem;
+    color: #777;
   }
   
